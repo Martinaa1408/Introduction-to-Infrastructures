@@ -28,6 +28,11 @@ This repository contains the comprehensive course summary for the Big Data Proce
 2. Open `BDP1_summary.pdf` in your preferred PDF viewer.
 3. Use the Table of Contents to navigate to specific chapters or the appendix.
 
+## SLIDE
+
+- [🔎 Visualizza su Google Drive](https://drive.google.com/file/d/1wzA1xtHW14hh-PvJJcho1k4J8ZIhmPxt/view?usp=sharing)  
+
+
 ## 🚀 Purpose
 
 This PDF serves as a **comprehensive study guide** for the entire BDP1 course, bringing together all theoretical and practical elements into a single, well-structured document.
