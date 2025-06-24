@@ -22,11 +22,13 @@ This repository contains the comprehensive course summary for the Big Data Proce
     - Practical exercises overview
     - Pipelines (text-based arrows) summarizing the flow of each chapter
 
-## 📌 How to Use
-
-1. Download or clone this repository.
-2. Open `BDP1_summary.pdf` in your preferred PDF viewer.
-3. Use the Table of Contents to navigate to specific chapters or the appendix.
+## 📌 PRACTICALS QUESTIONS
+- cosa fa DOCKER compose up? come si aggiunge storage alla virtual machine di Amazon? noi per la computational challange abbiamo usate AWS come Ias....?
+- Immagine-->schema CPU MEMORIA..
+- DOCKER file la voce CMD cosa vuol dire?
+- cloud deployment
+- networking
+  
 
 ## SLIDE
 
