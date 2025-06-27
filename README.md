@@ -28,7 +28,12 @@ This repository contains the comprehensive course summary for the Big Data Proce
 - DOCKER file la voce CMD cosa vuol dire?
 - cloud deployment
 - networking
-  
+- make and copy per il docker image
+- ASCII file
+-cloud computing
+-store system
+
+
 
 ## SLIDE
 
