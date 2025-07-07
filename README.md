@@ -1,4 +1,4 @@
-# BDP1_2025 - Big Data Processing Infrastructures: Course Summary
+# BDP1_2025 -  INTRODUCTION TO BIG DATA PROCESSING INFRASTRUCTURES
 
 This repository contains the comprehensive course summary for the Big Data Processing Infrastructures (BDP1) course.
 
