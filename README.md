@@ -27,9 +27,17 @@ This repository contains educational resources, lecture summaries, quizzes, and 
 
 ## SLIDE
 
-- [🔎Google Drive](https://drive.google.com/file/d/1wzA1xtHW14hh-PvJJcho1k4J8ZIhmPxt/view?usp=sharing)  
+- [🔎Google Drive](https://drive.google.com/file/d/1wzA1xtHW14hh-PvJJcho1k4J8ZIhmPxt/view?usp=sharing)
+  
+
+## Official Course Repository
+
+For additional materials, examples, and practical exercises, visit the instructor's GitHub repository:  
+👉 [https://github.com/dcesini/BDP1_2025](https://github.com/dcesini/BDP1_2025)
+
+---
 
 
-## 🚀 Purpose
+## Purpose
 
 This PDF serves as a **comprehensive study guide** for the entire BDP1 course, bringing together all theoretical and practical elements into a single, well-structured document.
