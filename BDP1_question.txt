@@ -1,0 +1,19 @@
+BDPI1 questions 26 questions and 70 min (see the screenshots in the Common cause they were on the exam):
+1. Differences between the batch system and cloud computing
+2. ⁠Cooling techinques of the datacenter
+3. ⁠Checksums
+4. ⁠LAN
+5. ⁠Meaning of 0.0.0.0 in IP
+6. ⁠SAN
+7. ⁠DAS
+8. ⁠PaaS
+9. ⁠Cloud-aware applications
+10. ⁠GRID
+11. ⁠Efficiency
+12. ⁠CMD in Docker
+13. ⁠Docker compose
+14. ⁠Edge and fog computing
+15. ⁠Digital twins
+16. HPC vs HTC
+17. A picture about an infrastructure (we think it was a NUMA architecture)
+And there were questions about the practicals: that it has a public and private IP adress
