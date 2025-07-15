@@ -1,0 +1,310 @@
+1. Differences between Batch Systems and Cloud Computing
+Which of the following statements correctly describe batch systems vs cloud computing?
+
+✅ a) Batch systems use centralized queues and static scheduling.
+
+✅ b) Cloud computing provides on-demand services and dynamic scalability.
+
+✅ c) Batch systems typically submit jobs via wrappers or scripts.
+
+d) Cloud computing cannot be used for scientific computations.
+
+📘 Keywords: queue, on-demand, dynamic, submission, batch
+
+2. Data Center Cooling Techniques
+Which of the following are valid cooling techniques for data centers?
+
+✅ a) Free cooling
+
+✅ b) Liquid immersion cooling
+
+❌ c) Virtual cooling with containers
+
+✅ d) Air conditioning optimization
+
+📘 Keywords: cooling, free, liquid, HVAC, datacenter
+
+3. Checksums
+Why are checksums used in file management and data transmission?
+
+✅ a) To verify data integrity after transfer.
+
+❌ b) To calculate RAM usage.
+
+✅ c) To use tools like md5sum or sha256sum.
+
+❌ d) To encrypt files for privacy.
+
+📘 Keywords: checksums, integrity, md5, sha256
+
+4. LAN (Local Area Network)
+What are typical features of a LAN?
+
+✅ a) High bandwidth and low latency.
+
+✅ b) Used in local environments (schools, labs, offices).
+
+❌ c) Always uses public IP addresses.
+
+✅ d) Connected via switches or routers.
+
+📘 Keywords: LAN, low latency, switch, local
+
+5. What does 0.0.0.0 represent?
+✅ a) Unassigned address.
+
+❌ b) Loopback address.
+
+✅ c) Any IP / all interfaces.
+
+❌ d) Invalid subnet mask.
+
+📘 Keywords: 0.0.0.0, wildcard, bind, unassigned
+
+6. Storage Area Network (SAN)
+✅ a) Provides block-level storage to servers.
+
+❌ b) Is intended for personal use.
+
+✅ c) Offers high redundancy and uptime.
+
+✅ d) Uses protocols like Fibre Channel or iSCSI.
+
+📘 Keywords: SAN, block storage, Fibre Channel, availability
+
+7. Direct Attached Storage (DAS)
+✅ a) Directly connected to a server.
+
+❌ b) Provides network-wide file sharing.
+
+✅ c) Cannot be scaled easily.
+
+✅ d) Used mostly in local environments.
+
+📘 Keywords: DAS, local, not scalable, no network
+
+8. Platform as a Service (PaaS)
+❌ a) Offers VMs with no OS.
+
+✅ b) Provides runtime environments and databases.
+
+❌ c) Full control over hardware.
+
+✅ d) Allows developers to deploy code directly.
+
+📘 Keywords: PaaS, runtime, databases, deploy
+
+9. Cloud-Aware Applications
+✅ a) Stateless by design.
+
+✅ b) Built-in failover mechanisms.
+
+❌ c) Rely on specific physical hardware.
+
+✅ d) Support horizontal scalability.
+
+📘 Keywords: cloud-aware, stateless, failover, scalability
+
+10. Grid Computing
+✅ a) Uses distributed, shared computing resources.
+
+✅ b) Often uses tools like myproxy-init or VOMS for security.
+
+❌ c) Requires each user to have a dedicated GPU.
+
+✅ d) Operates through job submission systems (e.g., WMS).
+
+📘 Keywords: grid, distributed, WMS, myproxy, VOMS
+
+11. Computing Efficiency
+✅ a) Ratio of CPU time to real (wall-clock) time.
+
+✅ b) Related to Amdahl’s Law for theoretical speedup.
+
+✅ c) Lower when too many threads are used on a single core.
+
+❌ d) Depends only on bandwidth.
+
+📘 Keywords: efficiency, CPU time, Amdahl, threads
+
+12. CMD in Dockerfiles
+✅ a) Sets the default command to run when the container starts.
+
+❌ b) Defines the image name.
+
+✅ c) Can be overridden during docker run.
+
+❌ d) Sets user permissions.
+
+📘 Keywords: CMD, Dockerfile, default command, override
+
+13. Docker Compose
+✅ a) Launching multiple containers as a single service.
+
+✅ b) Defining environment variables and volumes.
+
+❌ c) Automatically downloading all Docker images.
+
+✅ d) Avoiding manual Docker networking setup.
+
+📘 Keywords: Docker Compose, services, networks, environment
+
+14. Edge and Fog Computing
+✅ a) Edge processes data close to the source in real time.
+
+✅ b) Fog acts as an intermediary layer between IoT and cloud.
+
+✅ c) Both reduce latency compared to centralized cloud.
+
+❌ d) Cloud is always faster than edge.
+
+📘 Keywords: edge, fog, latency, IoT, real-time
+
+15. Digital Twins
+✅ a) Real-time virtual replicas of physical objects.
+
+❌ b) Cloud backups.
+
+❌ c) Docker containers with stateful config.
+
+❌ d) Augmented reality headsets.
+
+📘 Keywords: digital twins, virtual replica, real-time, IoT
+
+16. HPC vs HTC
+✅ a) HPC runs tightly-coupled, synchronous tasks.
+
+✅ b) HTC executes many independent jobs over long timeframes.
+
+❌ c) HTC is mostly used on single-core machines.
+
+✅ d) HPC usually runs on supercomputers or clusters.
+
+📘 Keywords: HPC, HTC, parallel, supercomputer, independent jobs
+
+17. NUMA Architecture
+✅ a) Each CPU core accesses local and remote memory.
+
+❌ b) Access latency is uniform across the system.
+
+✅ c) Can be more efficient than UMA for parallel workloads.
+
+❌ d) Used for distributed storage.
+
+📘 Keywords: NUMA, local memory, parallel, latency
+
+18. AWS IP Configuration
+✅ a) Public IPs are optional and dynamic.
+
+✅ b) You always get a static private IP within the VPC.
+
+❌ c) You cannot SSH without Elastic IP.
+
+✅ d) You can map public IPs to private IPs via NAT.
+
+📘 Keywords: AWS, private IP, public IP, NAT, VPC
+
+19. What are the purposes and features of a job submission model in Grid or HTC systems?
+a) It allows jobs to be scheduled across distributed resources.
+b) It includes mechanisms for input and output file staging (ISB/OSB).
+c) It requires user interaction at every execution step.
+d) It may include pilot jobs that fetch and execute user payloads dynamically.
+e) It abstracts resource details from the user.
+
+✅ Correct answers:
+
+✅ a)
+
+✅ b)
+
+❌ c)
+
+✅ d)
+
+✅ e)
+
+📘 Keywords: job submission, Grid, pilot job, sandbox, abstraction
+
+🔁 20. Matching – Match each concept to its correct definition
+Concept	Definition
+A. Stateless application	1. Isolated environment including code, dependencies, and runtime
+B. NUMA	2. Computes near data source with minimal delay
+C. Container	3. Handles each request without storing user session
+D. Edge Computing	4. Memory architecture with local access optimization
+
+✅ Answers:
+
+A → 3
+
+B → 4
+
+C → 1
+
+D → 2
+
+📘 Keywords: stateless, NUMA, container, edge
+
+✅ 21. True or False – Grid & HPC systems
+Grid computing is based on centralized resource ownership. → ❌ False
+
+HPC is often used for real-time control systems and sensor data. → ❌ False
+
+HTC systems prioritize high job throughput over tight coupling. → ✅ True
+
+VOMS is used for authorization in Grid computing. → ✅ True
+
+📘 Keywords: grid, authorization, HPC, HTC
+
+✍️ 22. Fill-in-the-blank – Docker & Virtualization
+Complete the sentence:
+
+Docker uses the host system's _______ to isolate and run containers. Virtual Machines instead use a _______ to emulate full hardware and OS environments.
+
+✅ Answer:
+
+Kernel
+
+Hypervisor
+
+📘 Keywords: container, VM, kernel, hypervisor
+
+🔄 23. Matching – Storage Types & Features
+Storage Type	Feature
+A. NAS	1. Accessible at file level via shared folders (e.g., NFS, SMB)
+B. SAN	2. Provides block-level storage to servers using iSCSI or Fibre Channel
+C. DAS	3. Directly attached to the machine, not shared
+D. Cloud Object Store	4. Used for storing unstructured data via APIs (e.g., S3, Azure Blob)
+
+✅ Answers:
+
+A → 1
+
+B → 2
+
+C → 3
+
+D → 4
+
+📘 Keywords: storage, SAN, NAS, DAS, S3
+
+🧠 24. Conceptual – Which elements define a Digital Twin system?
+a) A virtual model dynamically synchronized with a real-world object
+b) Always deployed on the same hardware as the physical twin
+c) Uses IoT data to reflect current status
+d) Enables real-time monitoring and predictive analytics
+e) Limited to offline simulation only
+
+✅ Correct answers:
+
+✅ a)
+
+❌ b)
+
+✅ c)
+
+✅ d)
+
+❌ e)
+
+📘 Keywords: digital twin, IoT, real-time, prediction
+
