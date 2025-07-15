@@ -1,0 +1,197 @@
+🗂️ 1. Batch Systems & Scheduling
+Batch System: A computing model where jobs are queued and executed without user interaction.
+
+Scheduler: Software that manages job order (e.g., FIFO, fair-share, backfilling).
+
+Queue: A waiting line for job execution, based on policies.
+
+Job States: Submitted → Queued → Running → Completed/Failed.
+
+Wrapper/Pilot Job: Placeholder that reserves resources and launches payloads.
+
+Sandbox: Isolated job environment with input/output files (ISB/OSB).
+
+🔗 Related: HTC, WMS, Fair-share Scheduling
+
+🌐 2. Cloud Computing
+Cloud Computing: On-demand access to computing resources via the internet.
+
+IaaS: Infrastructure (VMs, networks, storage).
+
+PaaS: Platforms (databases, runtimes, dev environments).
+
+SaaS: Apps delivered as services (e.g., Google Docs).
+
+Cloud-aware App: Stateless, scalable, failure-resilient.
+
+Elasticity: Ability to scale resources automatically.
+
+Self-service: User manages resources via APIs or UI.
+
+🔗 Related: Virtualization, Stateless
+
+🧱 3. Virtualization & Containers
+Virtual Machine (VM): Full OS emulated on a hypervisor (e.g., KVM).
+
+Hypervisor: Software that runs VMs (Type 1 = bare-metal, Type 2 = host-based).
+
+Container: Lightweight, OS-level virtualization (e.g., Docker).
+
+Dockerfile: Script to build a container image.
+
+CMD: Dockerfile instruction for default command.
+
+Docker Compose: YAML to define multi-container apps.
+
+Udocker: Docker-like tool for unprivileged users.
+
+Singularity: Container solution for HPC.
+
+🔗 Related: Cloud, Microservices, Isolation
+
+💾 4. Storage Systems
+DAS: Direct Attached Storage (local, non-shared).
+
+NAS: Network Attached Storage (file-level over LAN).
+
+SAN: Storage Area Network (block-level over Fibre Channel/iSCSI).
+
+Object Storage: S3-like systems for unstructured data via API.
+
+RAID: Redundant disk setups (0 = striping, 1 = mirroring, 5 = parity).
+
+HSM: Hierarchical Storage Management (tiered storage).
+
+QoS: Quality of Service (performance guarantees).
+
+🔗 Related: Cloud Tiers, POSIX Filesystems, Grid Storage
+
+🔌 5. Network & Protocols
+MAC Address: Layer 2 hardware address.
+
+IP Address: Layer 3 logical address (IPv4/IPv6).
+
+Subnet/Subnet Mask: Defines network and host space.
+
+MTU: Maximum Transmission Unit.
+
+DNS: Translates domain names to IPs.
+
+Router: Connects LAN to WAN.
+
+Switch: Directs traffic within LAN.
+
+Hub: Broadcasts to all ports (obsolete).
+
+NAT: Maps private IPs to public ones.
+
+0.0.0.0: Wildcard IP (bind all interfaces).
+
+🔗 Related: Cloud Networking, Container Networking
+
+🧪 6. Grid Systems & Job Submission
+Grid: Federation of distributed resources with shared computing goals.
+
+WMS: Workload Management System.
+
+CE: Computing Element (job gateway).
+
+WN: Worker Node (executes jobs).
+
+VOMS: Virtual Organization Membership Service.
+
+Proxy Certificate: Temporary security token for job execution.
+
+🔗 Related: Batch, Data Locality
+
+🔧 7. Linux & POSIX
+POSIX Filesystem: Standardized interface (permissions, file operations).
+
+Mounting: Attach a storage device (mount -t ext4 /dev/xvdf1 /mnt).
+
+fdisk -l: Lists partitions.
+
+free -m: Shows RAM/memory usage.
+
+ifconfig/ip addr: View network interfaces.
+
+scp, rsync, curl: File transfer tools.
+
+🔗 Related: Storage, Checksums
+
+🔐 8. Data Integrity & Checksums
+Checksum: Digest to verify file integrity.
+
+md5sum, sha256sum: Tools to compute checksums.
+
+Corruption Detection: Ensures safe transfers.
+
+🔗 Related: File Transfer, HTC
+
+🧠 9. Efficiency & Performance
+Efficiency: CPU time / real time.
+
+Amdahl’s Law: Speedup is limited by non-parallel parts.
+
+Speedup: Gain from parallelization.
+
+Scalability: How well performance improves with added resources.
+
+🔗 Related: NUMA, HPC, Cloud Autoscaling
+
+📊 10. Datacenter & Architecture
+NUMA: Non-Uniform Memory Access (local memory zones per CPU).
+
+PUE: Power Usage Effectiveness = Total Power / IT Power.
+
+UPS: Uninterruptible Power Supply.
+
+Cooling: Free cooling, immersion, HVAC optimization.
+
+Monitoring: Foreman, Puppet, alarming systems.
+
+🔗 Related: Efficiency, Virtualization
+
+🛰️ 11. Edge, Fog & IoT
+IoT: Internet of Things — physical sensors/devices generating data.
+
+Edge Computing: Processing near the source (low latency).
+
+Fog Computing: Intermediate layer between edge and cloud.
+
+Digital Twin: Virtual model of physical system, fed by IoT.
+
+🔗 Related: Cloud, Latency
+
+🏗️ 12. Cloud-Native Design
+Stateless: No stored session between requests.
+
+Horizontal Scalability: Add more instances, not resources to one.
+
+Microservices: Small independent components.
+
+Resilience: Ability to recover from failure.
+
+🔗 Related: Docker, Cloud-aware
+
+📦 13. Docker Networking
+Bridge: Default mode (internal virtual switch).
+
+Host: No isolation — uses host network.
+
+NAT: Forwards ports to containers.
+
+Docker Compose DNS: Named services can resolve via container name.
+
+🔗 Related: Container Isolation, Linux Networking
+
+🧮 14. HPC vs HTC
+HPC: High Performance Computing — tightly coupled, fast interconnects.
+
+HTC: High Throughput Computing — many jobs over time, loosely coupled.
+
+Supercomputer: Parallel machines for HPC.
+
+Grid/Farm: HTC model.
+
+🔗 Related: Batch, Efficiency
