@@ -75,13 +75,19 @@ ELB → Load balancer
 
 CloudFront → Global content delivery
 
+
 Each component connects as follows:
 
 Route 53 resolves domain → points to ELB
+
 ELB forwards traffic → to one or more EC2 instances
+
 EC2 stores data on EBS, interacts with RDS if needed
+
 Logs/media are sent to S3
+
 CloudFront caches content from S3 or EC2
+
 Security Groups and VPC manage all traffic
 
 <img width="716" height="431" alt="image" src="https://github.com/user-attachments/assets/1b692068-e36a-4cd9-98a1-f7fbf574a0c3" />
@@ -89,28 +95,41 @@ Security Groups and VPC manage all traffic
 ### 3. How to Create a Virtual Machine (EC2) on AWS
 
 Go to EC2 → Launch Instance
+
 Select an AMI (e.g. Red Hat Linux)
+
 Choose Instance Type (e.g. t2.micro)
+
 Create a Key Pair (SSH) and download the .pem file
+
 Choose a Subnet (part of your VPC)
+
 Enable Public IP to connect via internet
+
 Set a Security Group (open port 22)
+
 Click Launch
+
 
 Then connect via terminal:
 
+```bash
 ssh -i key.pem ec2-user@<Public-IP>
-
+```
 Inspect attached volumes:
 
+```bash
 lsblk
+```
 
 (Optional) Format and mount a new disk:
 
+```bash
 sudo fdisk /dev/xvdf
 sudo mkfs.ext4 /dev/xvdf1
 sudo mkdir /mnt/data
 sudo mount /dev/xvdf1 /mnt/data
+```
 
 Each instance gets:
 
