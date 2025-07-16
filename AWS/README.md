@@ -10,9 +10,13 @@ AWS enables users to build scalable, secure, and high-availability applications 
 It is part of the cloud computing paradigm, where physical infrastructure is abstracted and offered as services such as:
 
 -Compute (e.g., EC2 virtual machines)
+
 -Storage (e.g., S3 object storage, EBS block volumes)
+
 -Databases (e.g., RDS, DynamoDB)
+
 -Networking (e.g., VPC, Load Balancer)
+
 -DevOps, Machine Learning, Analytics, and more.
 
 AWS is a core example of Infrastructure as a Service (IaaS), with services extending into Platform as a Service (PaaS) and Software as a Service (SaaS).
@@ -34,13 +38,21 @@ Security Groups and VPC rules ensure secure traffic flow between all these servi
 Here’s how the main components work together in a typical deployment:
 
 #### EC2 – Your virtual machine where the application runs. Part of IaaS.
+
 #### EBS – A block storage disk attached to EC2, storing OS and data.
+
 #### S3 – Used for storing static files (images, logs, backups). Can be served via CloudFront.
+
 #### RDS – A managed database service. Connects to EC2 if your app needs structured data.
+
 #### VPC – Your private network that hosts EC2, RDS, etc. Isolated and secure.
+
 #### Security Group – A firewall that controls access to EC2/RDS (e.g. SSH on port 22).
+
 #### Route 53 – Resolves domain names (e.g. example.com) to IPs of your resources.
+
 #### ELB – Balances traffic across multiple EC2 instances.
+
 #### CloudFront – A CDN to deliver content (from S3) quickly around the world.
 
 All these components interact within the VPC, with EC2 as the central compute node.
@@ -48,12 +60,19 @@ All these components interact within the VPC, with EC2 as the central compute no
 Summary of Main Components
 
 EC2 → Virtual server
+
 EBS → Disk attached to EC2
+
 S3 → Object storage for files
+
 RDS → Managed database
+
 VPC → Private cloud network
+
 Route 53 → DNS service
+
 ELB → Load balancer
+
 CloudFront → Global content delivery
 
 Each component connects as follows:
