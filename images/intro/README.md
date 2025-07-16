@@ -91,3 +91,9 @@ Local Memory (main RAM/DRAM) is the slowest (~10 GB/s) and highest in latency (9
 This hierarchy demonstrates the trade-off between speed and size: closer memory (registers, L1) is faster but limited, while deeper memory (L3, DRAM) has more capacity but is slower. These aspects are essential for performance tuning in parallel systems, scientific computing, and HPC environments.
 
 Keywords: latency, bandwidth, cache levels, memory access, CPU architecture, DRAM, performance
+
+---
+
+## 7. `NUMA.png`
+
+Non uniform memory access: multi-CPU + single-RAM (local memory)
