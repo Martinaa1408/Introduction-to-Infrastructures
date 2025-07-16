@@ -39,7 +39,7 @@ Networking is the backbone of any distributed or cloud infrastructure. This sect
   6. Presentation (encryption, formatting)
   7. Application (user services)
 
-* *Keywords: OSI layers, encapsulation, abstraction, protocols.*
+*Keywords: OSI layers, encapsulation, abstraction, protocols.*
 
 ### `OSI-TCP.png` – **OSI vs TCP/IP Comparison**
 
