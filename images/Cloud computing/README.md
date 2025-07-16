@@ -4,6 +4,7 @@ This folder contains key diagrams and visual materials that illustrate the core 
 ## Image Descriptions
 
 `Cloud-computing.png`
+
 Description: This image visually presents the three core layers of cloud computing:
 
 Infrastructure (Compute, Storage, Network)
@@ -17,6 +18,7 @@ It also shows end-user devices such as laptops, desktops, tablets, and phones, a
 Concept: Demonstrates how cloud services are modular and accessed over the internet. It supports understanding of the IaaS, PaaS, SaaS stack.
 
 `IaaS-PaaS-SaaS.png`
+
 Description: This diagram compares the three primary cloud service models:
 
 Infrastructure as a Service (IaaS): User manages most layers except hardware and virtualization.
@@ -28,6 +30,7 @@ Software as a Service (SaaS): Vendor manages everything; user just consumes the 
 Concept: Essential to distinguish what is managed by the provider vs the user. Helps choose the appropriate level of abstraction for different use cases.
 
 `Legacy-CloudAware.png`
+
 Description: This visual contrasts Legacy Tenants with Cloud-Aware Tenants, showing:
 
 Legacy systems often rely on static provisioning.
@@ -37,6 +40,7 @@ Cloud-aware systems integrate HA/DR (High Availability/Disaster Recovery) polici
 Concept: Highlights the shift from traditional IT towards cloud-native strategies, emphasizing resilience and automation.
 
 `cloud-economics.png`
+
 Description: A side-by-side comparison of:
 
 Static provisioning (wasteful resource allocation).
@@ -46,6 +50,7 @@ Elastic cloud provisioning (dynamic scaling aligned with demand).
 Concept: Key for understanding cost optimization and resource utilization in cloud environments. Underlines how cloud avoids over-provisioning while meeting SLAs.
 
 `plateu.png`
+
 Description: Depicts the Gartner Hype Cycle:
 
 Technology Trigger → Peak of Inflated Expectations → Trough of Disillusionment → Slope of Enlightenment → Plateau of Productivity.
