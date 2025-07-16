@@ -21,12 +21,6 @@ The project is structured into five major components, each with its own detailed
 
 ### ⚙ Glossary (Essentials)
 
-* **CPU / GPU / TPU**: Processing units optimized for various workloads.
-* **Scheduler**: Handles execution of jobs in batch/cluster environments.
-* **Kernel / Daemon**: Low-level OS modules managing hardware and services.
-* **MAC / IP Address**: Hardware/software-level identifiers in networks.
-* **Throughput**: Amount of work completed over time.
-* **Volume / Velocity / Variety / Veracity / Value**: The 5 Vs of Big Data.
-* **Checksum**: Hash used to verify file integrity (e.g., `md5sum filename`).
+
 
 
