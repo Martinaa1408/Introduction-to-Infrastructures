@@ -53,9 +53,19 @@ This README provides a comprehensive overview of PC architecture and its role in
 
 ### 2.5 Cooling Systems
 
-* **Active Cooling:** Fans, liquid cooling
-* **Passive Cooling:** Heatsinks
-* **Thermal Paste:** Enhances heat transfer
+Cooling infrastructure is essential to maintain optimal temperatures and prevent overheating in high-performance computing environments.
+
+-Free Cooling: Uses ambient air or water from outside without active chillers.
+
+-Forced Air Flow Cooling: Employs fans to circulate air over components.
+
+-Liquid Submersion: Immerses hardware in thermally conductive liquid.
+
+-Liquid Cooling: Circulates coolant through cold plates attached to components.
+
+-Heat Pipes: Transfers heat through vaporization and condensation inside sealed tubes.
+
+-Hybrid Techniques: Combine multiple cooling methods depending on workload and scale.
 
 ### 2.6 Power Supply
 
@@ -175,6 +185,40 @@ md5sum sample.fq.gz
 ```
 
 Compare hashes before/after transmission/storage.
+
+---
+
+## 8. Mini Glossary of Key Infrastructure Concepts
+
+CPU: Central processing unit, executes instructions.
+
+GPU: Graphics processing unit, optimized for parallel computations.
+
+Thread: Smallest unit of execution managed by a scheduler.
+
+Scheduler: Software/hardware mechanism managing task execution.
+
+I/O (Input/Output): Communication between the system and external environment.
+
+Host: A physical or virtual machine running the OS or containers.
+
+Kernel: Core part of the OS managing resources.
+
+Daemon: Background service that runs system or application processes (e.g., Docker daemon).
+
+Volume: Persistent storage unit in container systems.
+
+Provider: Cloud or infrastructure provider offering compute/storage/network resources.
+
+SoC (System on Chip): Compact integration of multiple components (CPU, RAM, I/O).
+
+Throughput: Work processed per unit time.
+
+Latency: Delay in task initiation or response.
+
+Cache: High-speed memory closer to the CPU.
+
+Checksum: A hash calculated to verify file integrity.
 
 ---
 
