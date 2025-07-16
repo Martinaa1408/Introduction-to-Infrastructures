@@ -1,4 +1,4 @@
-# 🐳 Docker & Containers: Infrastructure Overview – README
+# Docker & Containers: Infrastructure Overview – README
 
 This README explains the images and key concepts related to **Docker**, **udocker**, container networking, storage, and system architecture, as presented in the repository.
 
