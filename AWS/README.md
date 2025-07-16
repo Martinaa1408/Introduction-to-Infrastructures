@@ -151,3 +151,28 @@ Private IP: static, used inside VPC
 
 Public IP: dynamic, used to connect from outside
 
+---
+
+### 4. Why Study AWS and Comparison with INFN-CNAF
+
+We study **AWS** because it represents a global standard in cloud computing and allows us to:
+
+- Design and simulate a **modern data center** in an accessible and flexible way.
+- Understand **cloud-native principles** such as IaaS/PaaS, scalability, availability, and security.
+- Work with **modular and managed services** on distributed infrastructure.
+
+AWS is also useful for comparing **different computing models**, such as **commercial cloud vs scientific infrastructures**.
+
+### Comparison Table: AWS vs INFN-CNAF
+
+| Feature              | **AWS (Public Cloud)**                        | **INFN-CNAF (Scientific HPC/HTC)**                   |
+|----------------------|-----------------------------------------------|------------------------------------------------------|
+| **Access**           | Self-service via Web/API                      | Controlled access (e.g., INFN login, VOMS)           |
+| **Cost Model**       | Pay-as-you-go                                 | Free for research institutions                       |
+| **Services Offered** | VMs, storage, AI, serverless, CDN             | Batch system, tape archive, scientific data storage  |
+| **Flexibility**      | Very high, full customization                 | Lower, tailored to large scientific projects         |
+| **Target Users**     | Enterprises, devs, startups, education        | LHC, physics experiments, long-term computation      |
+| **Example Use Cases**| Web apps, containers, ML pipelines            | ATLAS jobs, backups, grid computing                  |
+
+> This comparison highlights when to use a flexible commercial cloud like AWS versus a structured research-focused infrastructure like INFN-CNAF.
+
