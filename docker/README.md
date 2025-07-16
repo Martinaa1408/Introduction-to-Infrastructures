@@ -207,8 +207,3 @@ docker-compose up -d
 Docker simplifies application deployment through containerization. Compared to traditional virtual machines, it offers a lighter, faster, and more flexible solution ideal for cloud environments. Tools like uDocker expand usability even in restricted environments like HPC, while Docker Compose simplifies orchestration. Understanding Docker internals, networking, and storage is essential to harnessing its full potential.
 
 Containers represent a key shift in modern infrastructure: **from heavyweight OS-level emulation to lightweight, consistent, and reproducible units of software delivery**. Their characteristics—such as portability, isolation, immutability, and efficiency—make Docker a cornerstone of DevOps, continuous deployment, and scalable cloud-native systems.
-
-
-## Conclusion
-
-Docker simplifies application deployment through containerization. Compared to traditional virtual machines, it offers a lighter, faster, and more flexible solution ideal for cloud environments. Tools like uDocker expand usability even in restricted environments like HPC, while Docker Compose simplifies orchestration. Understanding Docker internals, networking, and storage is essential to harnessing its full potential.
