@@ -5,23 +5,15 @@ This repository contains educational resources, lecture summaries, quizzes, and 
 
 ---
 
-## Key Topics Covered
+## Abstract and Information
 
-- **Big Data Infrastructures**: general concepts and classification.
-- **Distributed Systems and File Systems**: NFS, HDFS, Lustre.
-- **Virtualization & Containerization**: Docker, udocker, Virtual Machines.
-- **Cloud, Edge, and Fog Computing**: differences, benefits, architecture models.
-- **Batch Systems and HPC/HTC**: HTCondor, SLURM, practical usage.
-- **Storage technologies and scalability challenges**.
-
----
-
-## How to Use This Repository
-
-1. **Start with `BDP1_my.pdf`** for a comprehensive overview of the course theory and concepts.
-2. **Follow along with `infra.pdf`** to review the official lecture slides.
-3. **Test your understanding** using the questions in `BDP1_question.txt`.
-4. **Contribute or take notes** by cloning the repository and making pull requests (optional).
+The course will provide basic concepts of Computing Infrastructures for processing Big Data and for running scientific applications. In particular it will focus on the Infrastructure-as-a-Service Cloud paradigm. 
+The course will provide an introduction to Big Data and how they are related to scientific  applications. 
+It will continue with a description of the building blocks of modern Data Centers and how they are abstracted by the Cloud computing models. 
+A real-life computational challenge will be given and students will create (during the course) a Cloud-based computing model to solve this challenge. 
+Access to a limited set of Cloud resources and services will be granted to students in order to complete the exercises.  
+Containers and in particular Docker Containers will be introduced as for the concept of High Performance Computing (HPC). 
+Notions about the emerging “Fog” and “Edge” computing paradigms and how they are linked to Cloud infrastructures will conclude the course.
 
 ---
 
