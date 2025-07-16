@@ -180,7 +180,9 @@ docker-compose up -d
 
 ## 9. Coming Soon: Docker CLI Cheatsheet
 
-*A concise command reference to be added here.*
+<img width="833" height="833" alt="Screenshot 2025-07-16 131421" src="https://github.com/user-attachments/assets/96a4db13-6152-43b9-84cc-e2cd1cc8da76" />
+
+<img width="778" height="907" alt="Screenshot 2025-07-16 131707" src="https://github.com/user-attachments/assets/a56d2668-9079-4c6c-a10e-43328a29b930" />
 
 ---
 
