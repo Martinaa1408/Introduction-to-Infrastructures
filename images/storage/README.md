@@ -22,11 +22,11 @@ Concepts: DAS, JBOD, HBA, SAS cable, local storage, direct connection.
 
 
 ## Cross-Image Connections
-DAS vs SAN: While DAS.png shows a direct and isolated storage model, LAN-WAN-FARM.png demonstrates shared, scalable networked storage (SAN) suitable for large-scale environments.
+DAS vs SAN: While `DAS.png` shows a direct and isolated storage model, `LAN-WAN-FARM.png` demonstrates shared, scalable networked storage (SAN) suitable for large-scale environments.
 
-filesystem.png illustrates the logical layer of storage, which applies to any physical architecture (DAS, SAN, NAS).
+`filesystem.png` illustrates the logical layer of storage, which applies to any physical architecture (DAS, SAN, NAS).
 
-LAN-WAN-FARM.png presents a high-performance, multi-tiered infrastructure, whereas DAS.png focuses on simplicity and locality.
+`LAN-WAN-FARM.png` presents a high-performance, multi-tiered infrastructure, whereas DAS.png focuses on simplicity and locality.
 
 ## Section Purpose
 This folder visually supports the understanding of:
