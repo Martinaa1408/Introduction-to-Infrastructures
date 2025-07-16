@@ -22,7 +22,19 @@ Docker is an open-source platform designed to automate the deployment, scaling, 
 * **Volumes**: Persistent storage mechanism used by containers.
 * **tmpfs Mount**: In-memory filesystem used for temporary storage.
 
+#### Characteristics of Containers:
 
+Lightweight: Containers share the host OS kernel and do not require a full guest OS.
+
+Portable: A containerized application runs consistently across any environment.
+
+Isolated: Each container runs in its own process space, with isolated file systems, network stacks, and users.
+
+Ephemeral: Containers can be created and destroyed quickly.
+
+Immutable: Once built, containers typically do not change; updates involve rebuilding new containers.
+
+Secure: Namespaces and control groups (cgroups) provide process and resource isolation.
 
 
 ---
