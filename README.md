@@ -18,6 +18,14 @@ Notions about the emerging “Fog” and “Edge” computing paradigms and how 
 ---
 ## STRUCTURE
 
+-AWS--> Amazon Web Services 
+-Computing-Network-storage-htc-hpc
+-Formulas
+-architecture
+-docker
+-helpstudy
+-images
+-notes
 
 ---
 
