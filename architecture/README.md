@@ -194,6 +194,10 @@ CPU: Central processing unit, executes instructions.
 
 GPU: Graphics processing unit, optimized for parallel computations.
 
+Hardware: Physical components of a computer system that you can touch and see — such as CPU, RAM, disks, and network interfaces.
+
+Software: A set of instructions and code that run on hardware and tell it what to do — including operating systems, applications, and scripts.
+
 Thread: Smallest unit of execution managed by a scheduler.
 
 Scheduler: Software/hardware mechanism managing task execution.
