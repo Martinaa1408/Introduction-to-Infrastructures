@@ -117,6 +117,7 @@ Set a Security Group (open port 22)
 
 Click Launch
 
+---
 
 Then connect via terminal (connect to EC2 via SSH):
 
@@ -142,9 +143,11 @@ Create a mount point
 Mount the partition to the mount point
 <pre><code> sudo mount /dev/xvdf1 /mnt/data </code></pre>
 
+---
 
 Each instance gets:
 
 Private IP: static, used inside VPC
+
 Public IP: dynamic, used to connect from outside
 
