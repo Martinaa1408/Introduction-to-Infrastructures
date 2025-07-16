@@ -16,6 +16,10 @@ Containers and in particular Docker Containers will be introduced as for the con
 Notions about the emerging “Fog” and “Edge” computing paradigms and how they are linked to Cloud infrastructures will conclude the course.
 
 ---
+## STRUCTURE
+
+
+---
 
 ## SLIDE
 
