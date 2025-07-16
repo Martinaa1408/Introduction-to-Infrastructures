@@ -23,7 +23,7 @@
 ### Speedup and Efficiency (Parallel Computing)
 <pre><code> 
   Speedup = T_serial / T_parallel 
-  Efficiency = Speedup / Number_of_Processors 
+  Efficiency = CPU Time / Wall-clock Time 
 </code></pre>
 
 🔑 Keywords: speedup, efficiency, parallel computing, Amdahl's LawBDP1
@@ -31,7 +31,11 @@
 ### Amdahl’s Law
 <pre><code> 
   Speedup_max = 1 / (Serial_fraction + (Parallel_fraction / N)) 
+  Speedup_max (alternative) = 1 / (1 - P + P / N) 
 </code></pre>
+
+P = parallelizable fraction of code
+N = number of processors
 
 🔑 Keywords: Amdahl's Law, scalability, performance limitBDP1
 
@@ -49,18 +53,16 @@
 
 🔑 Keywords: memory bandwidth, latency, cache, RAMBDP1
 
-### Latency and Bandwidth (Networking)
+### Latency and Throughput
 <pre><code> 
-  Latency = Round-Trip Time (RTT) 
-  One-Way Delay (OWD) = RTT / 2 
+  Latency = Time to complete a single task 
+  Throughput = Total tasks completed / Time 
 </code></pre>
 
-🔑 Keywords: latency, bandwidth, RTT, OWD, ping, network delayBDP1
+🔑 Keywords: latency, throughput, performance, response time
 
-### Network Bandwidth (Throughput)
-<pre><code>
-  Throughput = Amount of Data / Time 
-</code></pre>
 
-🔑 Keywords: throughput, data transfer, performance, networkBDP1
+### Power Usage Effectiveness (PUE)
+<pre><code> PUE = Total Facility Energy / IT Equipment Energy </code></pre>
+🔑 Keywords: PUE, data center, power, cooling, energy efficiency
 
