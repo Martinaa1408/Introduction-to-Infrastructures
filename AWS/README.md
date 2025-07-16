@@ -24,6 +24,8 @@ It allows you to build, deploy, and scale applications globally without managing
 It enables individuals, startups, enterprises, and governments to build and manage scalable applications quickly and cost-effectively, without the need to maintain physical infrastructure.
 With AWS, you can build applications without physical servers and scale them globally while paying only for what you use.
 
+---
+
 ### 2. Core Components and Their Flow
 
 All components in AWS are designed to interact seamlessly:
@@ -56,6 +58,8 @@ Here’s how the main components work together in a typical deployment:
 #### CloudFront – A CDN to deliver content (from S3) quickly around the world.
 
 All these components interact within the VPC, with EC2 as the central compute node.
+
+---
 
 Summary of Main Components
 
@@ -91,6 +95,8 @@ CloudFront caches content from S3 or EC2
 Security Groups and VPC manage all traffic
 
 <img width="716" height="431" alt="image" src="https://github.com/user-attachments/assets/1b692068-e36a-4cd9-98a1-f7fbf574a0c3" />
+
+---
 
 ### 3. How to Create a Virtual Machine (EC2) on AWS
 
