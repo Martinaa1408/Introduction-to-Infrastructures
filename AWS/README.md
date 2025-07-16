@@ -79,6 +79,7 @@ ELB → Load balancer
 
 CloudFront → Global content delivery
 
+---
 
 Each component connects as follows:
 
@@ -119,23 +120,20 @@ Click Launch
 
 Then connect via terminal:
 
-```bash
-ssh -i key.pem ec2-user@<Public-IP>
-```
+$ ssh -i key.pem ec2-user@<Public-IP>
+
 Inspect attached volumes:
 
-```bash
-lsblk
-```
+$ lsblk
 
 (Optional) Format and mount a new disk:
 
-```bash
-sudo fdisk /dev/xvdf
-sudo mkfs.ext4 /dev/xvdf1
-sudo mkdir /mnt/data
-sudo mount /dev/xvdf1 /mnt/data
-```
+
+$ sudo fdisk /dev/xvdf
+$ sudo mkfs.ext4 /dev/xvdf1
+$ sudo mkdir /mnt/data
+$ sudo mount /dev/xvdf1 /mnt/data
+
 
 Each instance gets:
 
