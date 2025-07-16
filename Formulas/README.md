@@ -32,10 +32,10 @@
 <pre><code> 
   Speedup_max = 1 / (Serial_fraction + (Parallel_fraction / N)) 
   Speedup_max (alternative) = 1 / (1 - P + P / N) 
-</code></pre>
-
+  
 P = parallelizable fraction of code
 N = number of processors
+</code></pre>
 
 🔑 Keywords: Amdahl's Law, scalability, performance limitBDP1
 
