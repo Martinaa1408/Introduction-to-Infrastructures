@@ -69,14 +69,17 @@ N = number of processors
 
 🔑 Keywords: PUE, data center, power, cooling, energy efficiency
 
-## Speedup, Efficiency, and Amdahl’s Law help assess how well parallel systems scale and where bottlenecks occur in multi-core or distributed environments.
+---
+#### Speedup, Efficiency, and Amdahl’s Law help assess how well parallel systems scale and where bottlenecks occur in multi-core or distributed environments.
 
-## RAID Capacity is essential for understanding the reliability and performance trade-offs in storage systems — a core part of file systems, data centers, and cloud volumes.
+#### RAID Capacity is essential for understanding the reliability and performance trade-offs in storage systems — a core part of file systems, data centers, and cloud volumes.
 
-## Memory Bandwidth and GFLOPS allow us to estimate the compute and data transfer limits of a given architecture (CPU, GPU, memory bus), which is key in performance tuning.
+#### Memory Bandwidth and GFLOPS allow us to estimate the compute and data transfer limits of a given architecture (CPU, GPU, memory bus), which is key in performance tuning.
 
-## Latency and Throughput are critical when evaluating network topology, streaming, or data transfer strategies (e.g. HPC farms, grid computing, cloud APIs).
+#### Latency and Throughput are critical when evaluating network topology, streaming, or data transfer strategies (e.g. HPC farms, grid computing, cloud APIs).
 
-## PUE connects IT infrastructure to energy efficiency and sustainability — a growing priority in data centers and cloud economics.
+#### PUE connects IT infrastructure to energy efficiency and sustainability — a growing priority in data centers and cloud economics.
 
-## CPU Time / Wall-clock Time reveal real-world resource usage, tying theory to the behavior of batch jobs, containers, or cloud workload
+#### CPU Time / Wall-clock Time reveal real-world resource usage, tying theory to the behavior of batch jobs, containers, or cloud workload
+
+---
