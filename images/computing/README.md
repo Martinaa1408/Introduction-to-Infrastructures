@@ -2,6 +2,7 @@
 This folder contains visual explanations of computing job types and resource allocation strategies used in High Throughput Computing (HTC) and High Performance Computing (HPC) environments.
 
 `job-types.png`
+
 This diagram illustrates various types of jobs submitted to computing infrastructures:
 
 Single batch job: An isolated task with no dependencies.
@@ -17,6 +18,7 @@ Parallel: Jobs that must run simultaneously across multiple cores or machines.
 Connection: This image links to the concept of workflow structures in `HTC-HPC-workflow.png` (from the Job scheduling section), as it outlines how job logic is organized.
 
 `resources.png`
+
 This image shows a resource sharing policy over time between two user groups (A and B):
 
 Both groups are initially allocated 50% of the computing resources.
