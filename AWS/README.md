@@ -1,5 +1,6 @@
 # AMAZON WEB SERVICES
 
+
 ### 1. What is AWS?
 
 Amazon Web Services (AWS) is a cloud computing platform that provides a wide range of infrastructure services on-demand, such as compute power, storage, networking, and databases.
@@ -175,4 +176,7 @@ AWS is also useful for comparing **different computing models**, such as **comme
 | **Example Use Cases**| Web apps, containers, ML pipelines            | ATLAS jobs, backups, grid computing                  |
 
 > This comparison highlights when to use a flexible commercial cloud like AWS versus a structured research-focused infrastructure like INFN-CNAF.
+
+[Go to AWS Academy Course](https://awsacademy.instructure.com/courses/108146?invitation=1yxUb8EvV9cl3lW4su4Q2f05DNBUfP0HfjHDM61I)
+
 
