@@ -12,9 +12,6 @@ Docker is an open-source platform designed to automate the deployment, scaling, 
 
 ### Core Components
 
-<img width="726" height="320" alt="Screenshot 2025-07-16 131623" src="https://github.com/user-attachments/assets/5aa3d78d-b17b-40fd-a429-2c77e925cfff" />
-
-
 * **Docker Daemon (`dockerd`)**: A background service that manages images, containers, volumes, and networks.
 * **Docker CLI**: Command-line interface to interact with the daemon.
 * **Docker Images**: Read-only templates used to create containers.
@@ -22,20 +19,16 @@ Docker is an open-source platform designed to automate the deployment, scaling, 
 * **Volumes**: Persistent storage mechanism used by containers.
 * **tmpfs Mount**: In-memory filesystem used for temporary storage.
 
-#### Characteristics of Containers:
+<img width="726" height="320" alt="Screenshot 2025-07-16 131623" src="https://github.com/user-attachments/assets/5aa3d78d-b17b-40fd-a429-2c77e925cfff" />
 
-Lightweight: Containers share the host OS kernel and do not require a full guest OS.
+### Characteristics of Containers
 
-Portable: A containerized application runs consistently across any environment.
-
-Isolated: Each container runs in its own process space, with isolated file systems, network stacks, and users.
-
-Ephemeral: Containers can be created and destroyed quickly.
-
-Immutable: Once built, containers typically do not change; updates involve rebuilding new containers.
-
-Secure: Namespaces and control groups (cgroups) provide process and resource isolation.
-
+* **Lightweight**: Containers share the host OS kernel and do not require a full guest OS.
+* **Portable**: A containerized application runs consistently across any environment.
+* **Isolated**: Each container runs in its own process space, with isolated file systems, network stacks, and users.
+* **Ephemeral**: Containers can be created and destroyed quickly.
+* **Immutable**: Once built, containers typically do not change; updates involve rebuilding new containers.
+* **Secure**: Namespaces and control groups (cgroups) provide process and resource isolation.
 
 ---
 
@@ -48,6 +41,8 @@ Secure: Namespaces and control groups (cgroups) provide process and resource iso
 | Resource Usage      | Lightweight (shares OS kernel)   | Heavy (separate OS per VM)       |
 | Isolation           | Process-level                    | Stronger (hardware abstraction)  |
 | Portability         | High (runs anywhere Docker does) | Moderate (depends on hypervisor) |
+| Image Size          | Small (typically MBs)            | Large (typically GBs)            |
+| Density             | High (more containers per host)  | Low (fewer VMs per host)         |
 
 ---
 
@@ -58,6 +53,8 @@ Docker complements cloud environments by offering portability, consistency, and 
 * **Cloud-native Design**: Containers are ideal for microservices and serverless architectures.
 * **Multi-cloud Portability**: Docker images run consistently across AWS, Azure, GCP, etc.
 * **CI/CD Integration**: Enables automated builds, tests, and deployment in pipelines.
+* **Elastic Scalability**: Easily spin up/down container replicas based on demand.
+* **Infrastructure as Code**: Integration with orchestration tools like Kubernetes and Terraform.
 
 ---
 
@@ -70,6 +67,7 @@ Docker complements cloud environments by offering portability, consistency, and 
 * Designed for HPC environments.
 * Compatible with Docker images.
 * No need for `sudo` or Docker Engine.
+* Good for restricted multi-user environments.
 
 ### Usage Example
 
@@ -144,33 +142,53 @@ docker run --tmpfs /app/tmp:rw,size=64m ubuntu
 
 * Share the host kernel, isolate at process level.
 * Lightweight, ideal for rapid deployment.
+* Provide application-level packaging and deployment.
 
 ---
 
 ## 8. Docker Compose
 
-Docker Compose allows defining multi-container applications using YAML.
+Docker Compose allows defining and managing multi-container Docker applications.
 
-### Example `docker-compose.yml`
+### Docker Compose Example
 
 ```yaml
-db:
-  image: postgres
-  volumes:
-    - db_data:/var/lib/postgresql/data
+version: '3'
 
-web:
-  image: mywebapp
-  ports:
-    - "8000:8000"
-  depends_on:
-    - db
+services:
+  database:
+    image: mysql:5.7
+    environment:
+      - MYSQL_DATABASE=wordpress
+      - MYSQL_USER=wordpress
+      - MYSQL_PASSWORD=testwp
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+    networks:
+      - backend
 
-volumes:
-  db_data:
+  wordpress:
+    image: wordpress:latest
+    depends_on:
+      - database
+    environment:
+      - WORDPRESS_DB_HOST=database:3306
+      - WORDPRESS_DB_USER=wordpress
+      - WORDPRESS_DB_PASSWORD=testwp
+      - WORDPRESS_DB_NAME=wordpress
+    ports:
+      - "8080:80"
+    networks:
+      - backend
+      - frontend
+
+networks:
+  backend:
+  frontend:
 ```
 
-### Command to Run
+This configuration sets up two services: a `mysql` database and a `wordpress` instance. They communicate over a shared internal `backend` network, and WordPress is also connected to an external-facing `frontend` network.
+
+### Run the Application
 
 ```bash
 docker-compose up -d
@@ -182,9 +200,14 @@ docker-compose up -d
 
 <img width="833" height="833" alt="Screenshot 2025-07-16 131421" src="https://github.com/user-attachments/assets/96a4db13-6152-43b9-84cc-e2cd1cc8da76" />
 
-<img width="778" height="907" alt="Screenshot 2025-07-16 131707" src="https://github.com/user-attachments/assets/a56d2668-9079-4c6c-a10e-43328a29b930" />
-
 ---
+
+## Conclusion
+
+Docker simplifies application deployment through containerization. Compared to traditional virtual machines, it offers a lighter, faster, and more flexible solution ideal for cloud environments. Tools like uDocker expand usability even in restricted environments like HPC, while Docker Compose simplifies orchestration. Understanding Docker internals, networking, and storage is essential to harnessing its full potential.
+
+Containers represent a key shift in modern infrastructure: **from heavyweight OS-level emulation to lightweight, consistent, and reproducible units of software delivery**. Their characteristics—such as portability, isolation, immutability, and efficiency—make Docker a cornerstone of DevOps, continuous deployment, and scalable cloud-native systems.
+
 
 ## Conclusion
 
