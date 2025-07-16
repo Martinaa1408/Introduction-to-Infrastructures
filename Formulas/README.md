@@ -1,8 +1,7 @@
 # BDP1-ALL KEY FORMULAS
 
 ### Basic Units and Storage Conversions
-<pre><code> 
-1 Byte (B) = 8 bits (b) 
+<pre><code> 1 Byte (B) = 8 bits (b) 
 1 Kilobyte (KB) = 1024 Bytes 
 1 Megabyte (MB) = 1024 KB 
 1 Gigabyte (GB) = 1024 MB 
