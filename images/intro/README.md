@@ -71,3 +71,23 @@ Expands the previous concept by adding the 5th V:
   Includes how big data impacts real life: sensors, logs, real-time decisions.
 
 Keywords: value, 5Vs, data streams, data processing, insight extraction
+
+---
+
+## 6. `latency-bandwidth.png`
+
+This diagram illustrates the memory hierarchy inside a processor, comparing read bandwidth (GB/s) and latency (ns, nanoseconds) at different memory levels:
+
+Registers are the fastest units, reaching ~84 GB/s with just 2 ns latency.
+
+L1 Cache offers ~60 GB/s bandwidth with 7 ns latency (14 cycles).
+
+L2 Cache delivers ~30 GB/s with 26 ns delay.
+
+L3 Cache is shared across cores (~30 GB/s, 26 ns).
+
+Local Memory (main RAM/DRAM) is the slowest (~10 GB/s) and highest in latency (90 ns).
+
+This hierarchy demonstrates the trade-off between speed and size: closer memory (registers, L1) is faster but limited, while deeper memory (L3, DRAM) has more capacity but is slower. These aspects are essential for performance tuning in parallel systems, scientific computing, and HPC environments.
+
+Keywords: latency, bandwidth, cache levels, memory access, CPU architecture, DRAM, performance
