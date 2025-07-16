@@ -65,7 +65,7 @@ Logs/media are sent to S3
 CloudFront caches content from S3 or EC2
 Security Groups and VPC manage all traffic
 
-<img width="716" height="431" alt="image" src="https://github.com/user-attachments/assets/1b692068-e36a-4cd9-98a1-f7fbf574a0c3" />## AWS (Amazon Web Services)
+<img width="716" height="431" alt="image" src="https://github.com/user-attachments/assets/1b692068-e36a-4cd9-98a1-f7fbf574a0c3" />
 
 ### 3. How to Create a Virtual Machine (EC2) on AWS
 
