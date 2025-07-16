@@ -17,7 +17,6 @@ Cloud computing at the top: Centralized processing and storage (big data analyti
 Comparison:
 
 Highlights the flow of data upward from device to cloud.
-
 Edge is a bridge between latency-sensitive tasks and deep cloud analytics.
 
 `IoT.png`
@@ -33,8 +32,7 @@ Environments: Smart homes, wearable tech, urban monitoring.
 
 Comparison:
 
-Broader scope compared to cloud-edge-IoT.png, emphasizing use cases.
-
+Broader scope compared to `cloud-edge-IoT.png`, emphasizing use cases.
 More domain-centric and visually comprehensive.
 
 `IoT-edge-cloud-descriptive.png`
@@ -53,21 +51,22 @@ Output leads to insights for action: descriptive, predictive, prescriptive.
 Comparison:
 
 More functional and analytical than the other diagrams.
-
 Integrates analytics concepts (Lambda architecture, IaaS/PaaS/SaaS).
-
 Shows real value of connecting edge and cloud.
 
+
 ## Conceptual Connections
-Layer	Function	Technologies
-IoT	Sensing & collecting data	Smart devices, M2M
-Edge	Real-time & local analytics	Gateways, routers
-Cloud	Deep storage & AI-based data processing	Data lakes, ML platforms
 
-Edge computing reduces latency and bandwidth needs before data reaches the cloud.
+| Layer        | Function                                    | Technologies               |
+|--------------|---------------------------------------------|----------------------------|
+| **IoT**      | Sensing & collecting data                   | Smart devices, M2M, sensors |
+| **Edge**     | Real-time & local analytics                 | Gateways, routers, fog nodes |
+| **Cloud**    | Deep storage & AI-based data processing     | Data lakes, ML platforms, SaaS |
 
-IoT enables digital twins, predictive maintenance, smart automation.
+-Edge computing reduces latency and bandwidth needs before data reaches the cloud.
 
-Cloud centralizes intelligence and feeds insights back to edge/IoT.
+-IoT enables digital twins, predictive maintenance, smart automation.
+
+-Cloud centralizes intelligence and feeds insights back to edge/IoT.
 
 ###### Tip: These layers are not mutually exclusive. For example, a smart vehicle may locally detect danger (edge) but upload logs to cloud for fleet-wide AI model retraining.
