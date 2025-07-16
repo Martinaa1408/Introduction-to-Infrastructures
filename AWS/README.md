@@ -118,21 +118,29 @@ Set a Security Group (open port 22)
 Click Launch
 
 
-Then connect via terminal:
+Then connect via terminal (connect to EC2 via SSH):
 
-$ ssh -i key.pem ec2-user@<Public-IP>
-
-Inspect attached volumes:
-
-$ lsblk
-
-(Optional) Format and mount a new disk:
+<pre><code> ssh -i key.pem ec2-user@<Public-IP> </code></pre>
 
 
-$ sudo fdisk /dev/xvdf
-$ sudo mkfs.ext4 /dev/xvdf1
-$ sudo mkdir /mnt/data
-$ sudo mount /dev/xvdf1 /mnt/data
+Inspect attached volumes (show all attached disks and partitions):
+
+<pre><code> lsblk </code></pre>
+
+
+Format and mount a new disk:
+
+Create a new partitioning tool for the new volume
+<pre><code> sudo fdisk /dev/xvdf </code></pre>
+
+Format the partition as ext4
+<pre><code> sudo mkfs.ext4 /dev/xvdf1 </code></pre>
+
+Create a mount point
+<pre><code> sudo mkdir /mnt/data </code></pre>
+
+Mount the partition to the mount point
+<pre><code> sudo mount /dev/xvdf1 /mnt/data </code></pre>
 
 
 Each instance gets:
