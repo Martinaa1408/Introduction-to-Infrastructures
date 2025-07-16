@@ -1,4 +1,4 @@
-# Welcome to the Big Data & Infrastructure Systems Repository
+# Welcome to Computing-network-storage-htc-hpc repository!
 
 This repository offers a comprehensive and modular overview of modern computational infrastructures, from network architectures to advanced paradigms like cloud computing, job scheduling, and edge computing.
 
