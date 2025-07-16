@@ -23,5 +23,5 @@ This image represents the Grid computing paradigm, where various types of users 
 
 -User Abstraction: While computing-on-server requires direct control, GRID-paradigm offers abstraction, scalability, and fault tolerance.
 
-This directory provides a conceptual progression that helps understand how modern scientific computation scales in both complexity and capability, moving from HTC (throughput, long-running jobs) to HPC (performance, tightly-coupled parallel jobs).
+> This directory provides a conceptual progression that helps understand how modern scientific computation scales in both complexity and capability, moving from HTC (throughput, long-running jobs) to HPC (performance, tightly-coupled parallel jobs).
 
