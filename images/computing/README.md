@@ -31,4 +31,30 @@ Compensation mechanisms ensure fairness over time.
 
 Connection: This image connects with `queue.png` (from the Job scheduling section) and represents the practical implementation of fair-sharing policies and backfilling used by job queues in batch systems.
 
+`DAS-NAS-SAN.png`
+
+This image compares three common storage architectures:
+
+-DAS (Direct-Attached Storage) – Left (Red):
+
+Storage is directly connected to a single server.
+Fast and simple, but not shareable among multiple servers.
+Example: External hard drive or internal disk array.
+
+-NAS (Network-Attached Storage) – Middle (Blue):
+
+Storage is connected over a LAN and shared by multiple servers.
+Managed through Ethernet switches.
+Suitable for file-level access (e.g., home/office file servers).
+
+-SAN (Storage Area Network) – Right (Yellow):
+
+High-performance block-level storage connected via fiber channel switches.
+Designed for large data centers with high I/O demands.
+More complex and expensive, but scalable and fast.
+
+
+Each architecture offers different trade-offs in performance, cost, and scalability.
+
+
 
