@@ -96,4 +96,31 @@ Keywords: latency, bandwidth, cache levels, memory access, CPU architecture, DRA
 
 ## 7. `NUMA.png`
 
-Non uniform memory access: multi-CPU + single-RAM (local memory)
+This diagram shows a multi-processor system, often used in high-performance computing (HPC) and Non-Uniform Memory Access (NUMA) systems:
+
+Multiple CPUs: Four CPUs are connected together through an interconnect network.
+
+Each CPU has a dedicated memory controller and access to a local memory module, represented by the black and green stacked blocks. This means memory access times differ depending on which CPU accesses which memory—characteristic of NUMA.
+
+I/O Controllers: Positioned at the top and bottom, they manage communication with external I/O devices.
+
+The CPUs are interconnected, forming a mesh or crossbar topology, enabling direct communication between processors.
+
+This architecture allows for scalability and is used in server environments or clusters.
+
+---
+
+### 8. `multiCORE-processor.png`
+
+This diagram illustrates a multi-core processor architecture. It consists of:
+
+Four cores (Core 1 to Core 4): Each core functions as an independent CPU and has its own individual memory, typically used for cache (e.g., L1 cache).
+
+Shared Memory: All cores can access a central shared memory, which allows for communication and data exchange among them.
+
+Bus Interface: This connects the processor to external components, managing the communication between on-chip and off-chip resources.
+
+Off-Chip Components: These include memory, I/O devices, and other peripherals outside the chip boundary.
+
+This architecture is typical for Symmetric Multiprocessing (SMP) systems, where all cores share the same memory and are managed by the same OS.
+
