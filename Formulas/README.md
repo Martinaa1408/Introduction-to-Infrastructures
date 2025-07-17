@@ -16,17 +16,21 @@
   RAID 0 usable capacity = N × size_of_smallest_disk 
   RAID 1 usable capacity = size_of_smallest_disk (mirrored) 
   RAID 5 usable capacity = (N - 1) × size_of_smallest_disk 
+  
+Let N = number of physical disks
 </code></pre>
 
 🔑 Keywords: RAID, redundancy, mirroring, striping, parity, usable capacityBDP1
 
 ### Speedup and Efficiency (Parallel Computing)
 <pre><code> 
-  Speedup = T_serial / T_parallel 
-  Efficiency = CPU Time / Wall-clock Time 
+  Speedup = Performance_B / Performance_A  
+  Speedup = Time_Sequential / Time_Parallel  
+  Efficiency = Speedup / Number_of_Processors  
+  Max Speedup = 1 / α   (where α = serial fraction)  
 </code></pre>
 
-🔑 Keywords: speedup, efficiency, parallel computing, Amdahl's LawBDP1
+🔑 Keywords: speedup, efficiency, parallel computing
 
 ### Amdahl’s Law
 <pre><code> 
@@ -42,6 +46,11 @@ N = number of processors
 ### GFLOPS (Computing Power)
 <pre><code> 
   GFLOPS = Sockets × Cores_per_Socket × Clock_Speed × FLOPs_per_Cycle 
+
+  Sockets: number of physical CPU sockets
+  Cores per Socket: how many cores per CPU
+  Clock Speed: GHz, cycles per secon
+  FLOPs/Cycle: floating-point ops per core per cycle
 </code></pre>
 
 🔑 Keywords: GFLOPS, floating-point, performance, CPU, GPUBDP1
@@ -52,6 +61,16 @@ N = number of processors
 </code></pre>
 
 🔑 Keywords: memory bandwidth, latency, cache, RAMBDP1
+
+### Peak Performance and Speedup
+<pre><code> 
+  Speedup(B/A) = Peak_Performance_B / Peak_Performance_A
+  Performance = Efficiency × Peak_Bandwidth_Capability
+  Performance = Efficiency × Peak_Compute_Capability
+</code></pre>
+
+🔑 performance theoric, bandwidth, compute capability
+
 
 ### Latency and Throughput
 <pre><code> 
@@ -64,7 +83,11 @@ N = number of processors
 
 ### Power Usage Effectiveness (PUE)
 <pre><code> 
-  PUE = Total Facility Energy / IT Equipment Energy 
+  PUE = Total Facility Energy / IT Equipment Energy  
+      = 1 + (Non-IT Energy / IT Equipment Energy)
+
+PUE = 1.0 → ideal (only IT equipment uses power)
+PUE > 1.0 → realistic, includes cooling, power distribution
 </code></pre>
 
 🔑 Keywords: PUE, data center, power, cooling, energy efficiency
