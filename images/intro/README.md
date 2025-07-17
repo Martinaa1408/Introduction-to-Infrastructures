@@ -124,3 +124,52 @@ Off-Chip Components: These include memory, I/O devices, and other peripherals ou
 
 This architecture is typical for Symmetric Multiprocessing (SMP) systems, where all cores share the same memory and are managed by the same OS.
 
+---
+
+### 9. `Performance-comparison.png`
+
+This table compares the maximum speed-up achieved when moving from CPU to GPU execution, depending on the nature of the application:
+
+Compute Bound App (sp):
+The speed-up is calculated as 14.13 / 1.5 = 9.5.
+This indicates that GPU performs 9.5 times faster than CPU for compute-intensive applications (e.g., with many arithmetic operations and little memory transfer).
+
+Bandwidth Bound App:
+The speed-up is 572 / 240 = 2.4.
+GPU is only 2.4 times faster than CPU in cases where performance is limited by data transfer bandwidth rather than raw computation.
+
+➡ This shows that GPUs are much more beneficial for compute-bound tasks than for memory-bound ones.
+
+---
+
+### 10. `Hardware-Diversity.png`
+
+This diagram shows various hardware architectures with different CPU/GPU configurations:
+
+-Multicore CPU (top left):
+
+Few powerful cores (e.g., 4–8).
+Capable of vector instructions (SIMD) using wide registers (highlighted).
+
+-Manycore CPU (top middle):
+
+Many small cores optimized for parallel processing (e.g., 60+).
+Used in high-performance computing (HPC).
+
+-Heterogeneous: CPU + Manycore Coprocessor (top right):
+
+A mix of regular CPU and a manycore processor (e.g., Intel Xeon + Xeon Phi).
+
+-Heterogeneous: CPU + GPU (bottom left):
+
+Traditional configuration where CPU and discrete GPU are separate but work together (e.g., PC with NVIDIA GPU).
+
+-Heterogeneous: Integrated CPU + GPU (bottom right):
+
+CPU and GPU on the same chip (e.g., AMD APU, Apple M1).
+Efficient for mobile and embedded systems due to shared memory and reduced latency.
+
+
+This image illustrates the trend of combining general-purpose CPUs with parallel accelerators (like GPUs) to improve performance across diverse workloads.
+
+
