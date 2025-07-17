@@ -179,10 +179,15 @@ This image illustrates the trend of combining general-purpose CPUs with parallel
 Listing characters with their:
 
 Decimal (Dec)
+
 Hexadecimal (Hx)
+
 Octal (Oct)
+
 HTML code (Html)
+
 Character (Chr)
+
 Description (for control chars)
 
 Structure:
