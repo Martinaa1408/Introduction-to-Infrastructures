@@ -187,7 +187,9 @@ Description (for control chars)
 
 Structure:
 First 32 entries (0–31): Non-printable control characters (e.g., NUL, TAB, CR).
+
 32–126: Printable characters, including:
+
 32 = Space
 33–47 = Punctuation (! " # $ ...)
 48–57 = Digits (0–9)
