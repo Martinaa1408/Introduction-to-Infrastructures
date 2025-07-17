@@ -1,3 +1,5 @@
+--------------------------------------------------------------------------------------------
+
 🗂️ 1. Batch Systems & Scheduling
 Batch System: A computing model where jobs are queued and executed without user interaction.
 
@@ -12,6 +14,20 @@ Wrapper/Pilot Job: Placeholder that reserves resources and launches payloads.
 Sandbox: Isolated job environment with input/output files (ISB/OSB).
 
 🔗 Related: HTC, WMS, Fair-share Scheduling
+
+🔹 Job
+✅ unit, task, execution, scheduled, workload, batch
+❌ IP address, daemon, protocol, bandwidth
+
+🔹 Job Scheduler
+✅ queue, policy, submit, priority, execution time, HTCondor
+❌ container image, volume, RAID, GPU
+
+🔹 Batch System
+✅ queued jobs, non-interactive, computing farm, scheduling
+❌ streaming, real-time, stateless, interactive
+
+--------------------------------------------------------------------------------------------
 
 🌐 2. Cloud Computing
 Cloud Computing: On-demand access to computing resources via the internet.
@@ -29,6 +45,16 @@ Elasticity: Ability to scale resources automatically.
 Self-service: User manages resources via APIs or UI.
 
 🔗 Related: Virtualization, Stateless
+
+🔹 Cloud Computing
+✅ elastic, virtualization, multi-tenant, AWS, scalability
+❌ bare metal only, tight coupling, fixed hardware
+
+🔹 IaaS / PaaS / SaaS
+✅ abstraction, deployment model, control level, resource layer
+❌ data format, RAID, LAN configuration
+
+--------------------------------------------------------------------------------------
 
 🧱 3. Virtualization & Containers
 Virtual Machine (VM): Full OS emulated on a hypervisor (e.g., KVM).
@@ -49,6 +75,15 @@ Singularity: Container solution for HPC.
 
 🔗 Related: Cloud, Microservices, Isolation
 
+🔹 Virtual Machine
+✅ full OS, hypervisor, isolation, hardware emulation
+❌ shared kernel, ephemeral container, stateless
+
+🔹 Container
+✅ lightweight, shared kernel, Docker, uDocker, runtime
+❌ hypervisor, BIOS, full OS boot
+
+--------------------------------------------------------------------------------------
 💾 4. Storage Systems
 DAS: Direct Attached Storage (local, non-shared).
 
@@ -65,6 +100,16 @@ HSM: Hierarchical Storage Management (tiered storage).
 QoS: Quality of Service (performance guarantees).
 
 🔗 Related: Cloud Tiers, POSIX Filesystems, Grid Storage
+
+🔹 Filesystem
+✅ POSIX, hierarchy, storage abstraction, metadata
+❌ routing, virtualization, authentication protocol
+
+🔹 Storage
+✅ HDD, SSD, tiered, RAID, capacity, block-level
+❌ volatility, stateless, HTTP headers
+
+----------------------------------------------------------------------------
 
 🔌 5. Network & Protocols
 MAC Address: Layer 2 hardware address.
@@ -89,6 +134,12 @@ NAT: Maps private IPs to public ones.
 
 🔗 Related: Cloud Networking, Container Networking
 
+🔹 Node
+✅ compute unit, cluster, VM, edge device
+❌ protocol stack, registry, daemon
+
+-------------------------------------------------------------------------------
+
 🧪 6. Grid Systems & Job Submission
 Grid: Federation of distributed resources with shared computing goals.
 
@@ -103,6 +154,17 @@ VOMS: Virtual Organization Membership Service.
 Proxy Certificate: Temporary security token for job execution.
 
 🔗 Related: Batch, Data Locality
+
+🔹 Grid Computing
+✅ federation, distributed, VOMS, WMS, job delegation
+❌ local-only, SaaS, private subnet
+
+🔹 WMS
+✅ job manager, grid, delegation, resource matchmaking
+❌ container engine, IP layer, snapshot
+
+
+------------------------------------------------------------------------------
 
 🔧 7. Linux & POSIX
 POSIX Filesystem: Standardized interface (permissions, file operations).
@@ -119,6 +181,8 @@ scp, rsync, curl: File transfer tools.
 
 🔗 Related: Storage, Checksums
 
+------------------------------------------------------------------------
+
 🔐 8. Data Integrity & Checksums
 Checksum: Digest to verify file integrity.
 
@@ -128,6 +192,11 @@ Corruption Detection: Ensures safe transfers.
 
 🔗 Related: File Transfer, HTC
 
+🔹 Checksum
+✅ data integrity, md5sum, sha256sum, hash
+❌ encryption, RAID parity, port number
+
+------------------------------------------------------------------------
 🧠 9. Efficiency & Performance
 Efficiency: CPU time / real time.
 
@@ -138,6 +207,12 @@ Speedup: Gain from parallelization.
 Scalability: How well performance improves with added resources.
 
 🔗 Related: NUMA, HPC, Cloud Autoscaling
+
+🔹 Speedup
+✅ parallel efficiency, performance ratio, Amdahl’s law
+❌ cache hit rate, disk I/O, IP masking
+
+---------------------------------------------------------------------
 
 📊 10. Datacenter & Architecture
 NUMA: Non-Uniform Memory Access (local memory zones per CPU).
@@ -152,6 +227,8 @@ Monitoring: Foreman, Puppet, alarming systems.
 
 🔗 Related: Efficiency, Virtualization
 
+-------------------------------------------------------------------
+
 🛰️ 11. Edge, Fog & IoT
 IoT: Internet of Things — physical sensors/devices generating data.
 
@@ -162,6 +239,8 @@ Fog Computing: Intermediate layer between edge and cloud.
 Digital Twin: Virtual model of physical system, fed by IoT.
 
 🔗 Related: Cloud, Latency
+
+---------------------------------------------------------------------
 
 🏗️ 12. Cloud-Native Design
 Stateless: No stored session between requests.
@@ -174,6 +253,8 @@ Resilience: Ability to recover from failure.
 
 🔗 Related: Docker, Cloud-aware
 
+--------------------------------------------------------------------
+
 📦 13. Docker Networking
 Bridge: Default mode (internal virtual switch).
 
@@ -185,6 +266,8 @@ Docker Compose DNS: Named services can resolve via container name.
 
 🔗 Related: Container Isolation, Linux Networking
 
+----------------------------------------------------------------------
+
 🧮 14. HPC vs HTC
 HPC: High Performance Computing — tightly coupled, fast interconnects.
 
@@ -195,3 +278,94 @@ Supercomputer: Parallel machines for HPC.
 Grid/Farm: HTC model.
 
 🔗 Related: Batch, Efficiency
+
+🔹 HTC (High Throughput Computing)
+✅ independent jobs, long duration, loose coupling, parameter sweep
+❌ synchronous, tight coupling, latency critical
+
+🔹 HPC (High Performance Computing)
+✅ parallel, fast interconnect, simulation, GFLOPS, tightly-coupled
+❌ cloud-native, job queueing, stateless apps
+
+🔹 GFLOPS
+✅ floating point, HPC, performance, computation
+❌ file system, IP protocol, volume
+
+----------------------------------------------------------------------
+
+Other:
+
+🔹 Throughput
+✅ tasks/second, data per time, performance metric
+❌ access time, fragmentation, job type
+
+🔹 Latency
+✅ delay, RTT, ping, responsiveness
+❌ bandwidth, job duration, GFLOPS
+
+🔹 Pilot Job
+✅ placeholder, WMS, job fetching, dynamic
+❌ interactive shell, stateful service, frontend
+
+
+🔹 Digital Twin
+✅ virtual replica, IoT, real-time, cyber-physical
+❌ network switch, job scheduler, shell script
+
+🔹 CPU
+✅ core, cache, instruction set, ALU
+❌ volume, NAT, RAID controller
+
+🔹 GPU
+✅ parallelism, matrix computation, acceleration
+❌ main memory, IaaS plan, CLI
+
+🔹 Hardware
+✅ tangible, RAM, SSD, bus, motherboard
+❌ script, OS, YAML, endpoint
+
+🔹 Software
+✅ instruction, OS, application, code
+❌ metal, PCB, wire, fan
+
+🔹 Thread
+✅ execution unit, lightweight process, scheduler
+❌ disk, file descriptor, subnet
+
+🔹 Scheduler
+✅ task manager, job order, CPU time, fair share
+❌ job type, daemon port, DNS record
+
+🔹 I/O
+✅ input/output, disk read, network send/receive
+❌ RAM-only, volume mount, CPU-bound
+
+🔹 Host
+✅ machine, server, hypervisor, OS owner
+❌ protocol, switch, script file
+
+🔹 Kernel
+✅ system core, process management, memory access
+❌ GUI, terminal, firmware
+
+🔹 Daemon
+✅ background process, service, system tool
+❌ batch job, frontend app, REST API
+
+🔹 Volume
+✅ persistent storage, bind mount, named
+❌ packet, GPU block, cloud region
+
+🔹 Provider
+✅ cloud platform, resource host, AWS/Azure/GCP
+❌ CPU vendor, compiler, thread library
+
+🔹 SoC
+✅ embedded system, integrated, ARM, IoT
+❌ modular, hypervisor-only, VPC
+
+🔹 Cache
+✅ fast memory, L1/L2/L3, proximity to CPU
+❌ filesystem size, streaming protocol
+
+
