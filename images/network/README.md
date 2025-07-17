@@ -83,11 +83,13 @@ High redundancy and reliability.
 Expensive and complex to implement, used in critical systems like military or banking.
 
 *Tree Topology
+
 A combination of star and bus topologies.
 Devices are connected in a hierarchical manner (root → branches).
 Common in large organizations and structured networks.
 
 *Point-to-Point Topology
+
 Direct connection between two devices only.
 Simple and fast, ideal for dedicated links like between two routers.
 
