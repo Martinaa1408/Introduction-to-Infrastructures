@@ -69,7 +69,7 @@ N = number of processors
   Performance = Efficiency × Peak_Compute_Capability
 </code></pre>
 
-🔑 performance theoric, bandwidth, compute capability
+🔑 Keywords: performance theoric, bandwidth, compute capability
 
 
 ### Latency and Throughput
