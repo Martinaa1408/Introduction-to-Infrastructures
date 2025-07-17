@@ -56,6 +56,41 @@ Networking is the backbone of any distributed or cloud infrastructure. This sect
 
 *Keywords: INFN, CNAF, LHC, Tier-1, GARR, LHCONE, high throughput.*
 
+### `Network-Topologies.png`
+
+*Bus Topology
+
+All devices are connected to a single central cable (the bus or backbone).
+Data travels in both directions along the cable until it reaches the destination.
+Simple and cost-effective, but not scalable and prone to collisions.
+
+*Star Topology
+
+All devices are connected to a central hub or switch.
+If one connection fails, it doesn’t affect the others, but if the hub fails, the whole network goes down.
+Common in modern Ethernet networks.
+
+*Ring Topology
+
+Devices are connected in a circular loop.
+Data travels in one direction (or both in a dual ring).
+Failure in one node can disrupt the network unless it's a dual ring.
+
+*Mesh Topology
+
+Every device is connected to every other device.
+High redundancy and reliability.
+Expensive and complex to implement, used in critical systems like military or banking.
+
+*Tree Topology
+A combination of star and bus topologies.
+Devices are connected in a hierarchical manner (root → branches).
+Common in large organizations and structured networks.
+
+*Point-to-Point Topology
+Direct connection between two devices only.
+Simple and fast, ideal for dedicated links like between two routers.
+
 ---
 
 ## Connections Between the Images
