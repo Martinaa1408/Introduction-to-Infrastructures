@@ -172,4 +172,30 @@ Efficient for mobile and embedded systems due to shared memory and reduced laten
 
 This image illustrates the trend of combining general-purpose CPUs with parallel accelerators (like GPUs) to improve performance across diverse workloads.
 
+---
+
+### 11. `ASCII-file.png`
+
+Listing characters with their:
+
+Decimal (Dec)
+Hexadecimal (Hx)
+Octal (Oct)
+HTML code (Html)
+Character (Chr)
+Description (for control chars)
+
+Structure:
+First 32 entries (0–31): Non-printable control characters (e.g., NUL, TAB, CR).
+32–126: Printable characters, including:
+32 = Space
+33–47 = Punctuation (! " # $ ...)
+48–57 = Digits (0–9)
+65–90 = Uppercase letters (A–Z)
+97–122 = Lowercase letters (a–z)
+127: DEL (delete)
+
+Uses:
+Essential for text encoding, programming, and HTML rendering.
+
 
