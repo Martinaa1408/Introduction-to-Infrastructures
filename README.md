@@ -46,6 +46,9 @@ Notions about the emerging “Fog” and “Edge” computing paradigms and how 
 For additional materials, examples, and practical exercises, visit the instructor's GitHub repository:  
 👉 [https://github.com/dcesini/BDP1_2025](https://github.com/dcesini/BDP1_2025)
 
+Other repository related to the course of Infrastructures for Big Data Processing:
+👉 [https://github.com/alexcos78/bdp2](https://github.com/alexcos78/bdp2)
+
 ---
 
 
