@@ -311,7 +311,7 @@ Notions about the emerging “Fog” and “Edge” computing paradigms and how 
 → A model for delivering computing services over the internet based on pay-per-use and abstraction.
 
 `IaaS – Infrastructure as a Service (low-level, configurable)`
-→ Users manage OS, middleware, runtime, and apps (e.g. AWS EC2).
+→ Users manage middleware, runtime, and apps (e.g. AWS EC2).
 
 `PaaS – Platform as a Service (code-driven, abstracted)`
 → Users deploy code and data; providers manage runtime, OS, etc. (e.g. Heroku, GCP App Engine).
