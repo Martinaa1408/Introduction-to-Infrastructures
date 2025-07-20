@@ -100,16 +100,16 @@ Notions about the emerging “Fog” and “Edge” computing paradigms and how 
 
 ---Command---
 
-# Step 1: Create index
+-->Step 1: Create index
 `bwa index ref.fasta`
 
-# Step 2: Align reads
+-->Step 2: Align reads
 `bwa mem ref.fasta sample_R1.fastq > sample.sam`
 
-# Step 3: Convert and sort
+-->Step 3: Convert and sort
 `samtools view -Sb sample.sam | samtools sort -o sample_sorted.bam`
 
-# Step 4: Index BAM
+-->Step 4: Index BAM
 `samtools index sample_sorted.bam`
 
 `md5sum file.txt` → Generates an MD5 checksum of the file.
