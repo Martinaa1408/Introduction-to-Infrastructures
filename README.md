@@ -17,26 +17,6 @@ Notions about the emerging “Fog” and “Edge” computing paradigms and how 
 
 ---
 
-## STRUCTURE
-
--`AWS` --> Amazon Web Services overview.
-
--`Computing-Network-storage-htc-hpc` --> analyze each section.
-
--`Formulas` --> the major formulas that covered all topics.
-
--`architecture` --> intro basic nomenclature.
-
--`docker` --> container docker overview.
-
--`helpstudy` -->quizzes.
-
--`images` --> graphic/table/scheme.
-
--`notes` --> my notes.
-
----
-
 ## RECAP
 
 ---------Big Data Chapter---------
