@@ -19,7 +19,7 @@ Notions about the emerging “Fog” and “Edge” computing paradigms and how 
 
 ## RECAP
 
----------Big Data Chapter---------
+#### Big Data Chapter -->
 
 `Big Data (massive, high-volume)`
 → Massive volume of data that exceeds the capacity of traditional tools to manage and analyze.
@@ -42,7 +42,7 @@ Notions about the emerging “Fog” and “Edge” computing paradigms and how 
 `Value (meaningful, business-driven)`
 → The useful insight or benefit extracted from the data.
 
------------Hardware Terms – PC Components------------
+#### Hardware Terms – PC Components -->
 
 `CPU (fast, parallel)`
 → Central Processing Unit. Executes instructions of programs. Can have multiple cores for parallelism.
