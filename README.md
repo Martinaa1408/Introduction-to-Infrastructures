@@ -1,5 +1,11 @@
 ## BDP1_2025 - Introduction to Big Data Processing Infrastructures
 
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+[![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
+[![HPC](https://img.shields.io/badge/HPC-00599C?logo=superuser&logoColor=white)](https://en.wikipedia.org/wiki/High-performance_computing)
+[![HTC](https://img.shields.io/badge/HTC-FF6F00?logo=googlecloud&logoColor=white)](https://en.wikipedia.org/wiki/High-throughput_computing)
+[![Cloud Computing](https://img.shields.io/badge/Cloud_Computing-4285F4?logo=icloud&logoColor=white)](https://en.wikipedia.org/wiki/Cloud_computing)
+
 **Welcome to the official repository of the BDP1 2025 course!**  
 This repository contains educational resources, lecture summaries, quizzes, and exam preparation material for the *Introduction to Big Data Processing Infrastructures* course, part of the MSc in Bioinformatics.
 
